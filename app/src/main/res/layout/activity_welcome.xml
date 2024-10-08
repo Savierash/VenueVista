@@ -48,7 +48,7 @@
                 android:gravity="center"
                 android:text="MAKE YOUR BOOKING EASY"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="16sp" />
 
         </FrameLayout>
     </FrameLayout>

@@ -94,24 +94,13 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:id="@+id/more_package"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/box1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:text="More Packages"
-                android:textColor="@color/lightblue"
-                android:textSize="15sp"
-                android:fontFamily="@font/righteous_regular"/>
 
             <!--box2-->
             <androidx.cardview.widget.CardView
                 android:id="@+id/box2"
                 android:layout_width="350dp"
                 android:layout_height="130dp"
-                android:layout_below="@id/more_package"
+                android:layout_below="@id/box1"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="30dp"
                 app:cardBackgroundColor="@color/grey"
