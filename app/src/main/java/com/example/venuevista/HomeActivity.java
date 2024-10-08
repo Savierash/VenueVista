@@ -53,7 +53,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Actions to click images
-                Intent intent = new Intent(HomeActivity.this,SelectPackageActivity.class);
+                Intent intent = new Intent(HomeActivity.this,SelectPackage2Activity.class);
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Actions to click images
-                Intent intent = new Intent(HomeActivity.this,SelectPackageActivity.class);
+                Intent intent = new Intent(HomeActivity.this,SelectPackage3Activity.class);
                 startActivity(intent);
             }
         });
@@ -71,7 +71,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Actions to click images
-                Intent intent = new Intent(HomeActivity.this,SelectPackageActivity.class);
+                Intent intent = new Intent(HomeActivity.this,SelectPackage4Activity.class);
                 startActivity(intent);
             }
         });
@@ -80,7 +80,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Actions to click images
-                Intent intent = new Intent(HomeActivity.this,SelectPackageActivity.class);
+                Intent intent = new Intent(HomeActivity.this,SelectPackage5Activity.class);
                 startActivity(intent);
             }
         });
@@ -89,7 +89,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Actions to click images
-                Intent intent = new Intent(HomeActivity.this,SelectPackageActivity.class);
+                Intent intent = new Intent(HomeActivity.this,SelectPackage6Activity.class);
                 startActivity(intent);
             }
         });
