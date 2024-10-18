@@ -85,12 +85,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/roboto_condensed"
-                        android:gravity="center"
-                        android:text="OUTING"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="PAVILION"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -128,12 +126,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/roboto_condensed"
-                        android:gravity="center"
-                        android:text="BIRTHDAY/DEBUT"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="POOLSIDE"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -170,12 +166,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="WEDDING"
-                        android:textSize="18sp"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="POOLSIDE"
                         android:textColor="@color/black"
-                        android:fontFamily="@font/roboto_condensed"/>
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -212,12 +206,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="ANNIVERSARIES"
-                        android:textSize="18sp"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="Garden"
                         android:textColor="@color/black"
-                        android:fontFamily="@font/roboto_condensed"/>
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -254,12 +246,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:text="FAREWELL PARTY"
-                        android:textSize="18sp"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="Cottage"
                         android:textColor="@color/black"
-                        android:fontFamily="@font/roboto_condensed"/>
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -296,15 +286,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/roboto_condensed"
-                        android:gravity="center"
-                        android:text="MONTHSARIES"
+                        android:fontFamily="@font/bree_serif"
+                        android:text="Center"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/box6" />
 
         </RelativeLayout>
     </ScrollView>
