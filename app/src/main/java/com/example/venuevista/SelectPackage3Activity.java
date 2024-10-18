@@ -23,6 +23,7 @@ public class SelectPackage3Activity extends AppCompatActivity {
             public void onClick(View view) {
                 finish();
             }
+
         });
 
         bookNow = findViewById(R.id.book_now);
@@ -30,7 +31,7 @@ public class SelectPackage3Activity extends AppCompatActivity {
         bookNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectPackage3Activity. this,CompleteActivity.class);
+                Intent intent = new Intent(SelectPackage3Activity. this,BookingDetailsActivity.class);
                 startActivity(intent);
                 finish();
             }

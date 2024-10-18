@@ -35,6 +35,7 @@
         <activity android:name=".SelectPackage5Activity"/>
         <activity android:name=".SelectPackage6Activity"/>
         <activity android:name=".CompleteActivity"/>
+        <activity android:name=".BookingDetailsActivity"/>
 
     </application>
 

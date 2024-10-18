@@ -32,7 +32,7 @@ public class SelectPackage6Activity extends AppCompatActivity {
         bookNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectPackage6Activity. this,CompleteActivity.class);
+                Intent intent = new Intent(SelectPackage6Activity. this,BookingDetailsActivity.class);
                 startActivity(intent);
                 finish();
             }

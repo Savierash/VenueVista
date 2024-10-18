@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,10 +31,11 @@ public class SelectPackageActivity extends AppCompatActivity {
         bookNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectPackageActivity. this,CompleteActivity.class);
+                Intent intent = new Intent(SelectPackageActivity. this,BookingDetailsActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+
     }
 }

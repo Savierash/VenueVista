@@ -94,13 +94,6 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        searchBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });
 
         profileButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,6 +101,8 @@ public class HomeActivity extends AppCompatActivity {
                 // Handle profile button click
                 Intent intent = new Intent(HomeActivity.this, MainProfileActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
 
@@ -117,6 +112,8 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this,BookingActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
     }

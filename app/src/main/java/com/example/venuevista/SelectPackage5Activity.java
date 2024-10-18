@@ -31,7 +31,7 @@ public class SelectPackage5Activity extends AppCompatActivity {
         bookNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SelectPackage5Activity. this,CompleteActivity.class);
+                Intent intent = new Intent(SelectPackage5Activity. this,BookingDetailsActivity.class);
                 startActivity(intent);
                 finish();
             }
